@@ -1,2 +1,4 @@
 # MusicPlayer
-Randomized Queue, with song prioritization
+Practice POC for a Music Player that allows for song prioritization
+
+
