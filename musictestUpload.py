@@ -18,10 +18,8 @@ import keyboard
 
 f = [] # stores all the files in the specificed folder
 
-mypath = "C:/Users/jacob/Music/Z203 UNIT 1 MP3s/"#<path_to_music> #path to your music
+mypath = "C:/Users/.../.../MusicFolder/" # path to songs
 
-
-# mypath = "C:/Users/.../.../MusicFolder/" # path to songs
 for (dirpath, dirnames, filenames) in walk(mypath):
     f.extend(filenames)
     break
@@ -31,7 +29,7 @@ p = []
 songProb = {}
 songTypes = [".mp3"] # [".mp3",...]# allowed music links
 for s in f:
-    if(s[-4:] in songTypes): # checks if itmes in the list are playable songs (checks if last 4 charcters are .mp3)
+    if(s[-4:] in songTypes): # checks if items in the list are playable songs (checks if last 4 charcters are .mp3)
 
         # s = s.replace("_", "")
         songs.append(s)
